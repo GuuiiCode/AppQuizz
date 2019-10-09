@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_pergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Text Medium"
+        android:textColor="@color/colorWith"
+        android:layout_above="@+id/radGroup"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:id="@+id/radBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadionButton"
+            android:textColor="@color/colorWith"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadionButton"
+            android:textColor="@color/colorWith"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadionButton"
+            android:textColor="@color/colorWith"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadionButton"
+            android:textColor="@color/colorWith"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadionButton"
+            android:textColor="@color/colorWith"
+            android:textSize="18sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="atualizaPerguntas"/>
+
+</RelativeLayout>
